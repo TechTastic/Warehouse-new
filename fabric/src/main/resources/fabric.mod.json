@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "witcheryrewoven",
+  "version": "${version}",
+  "name": "Witchery: Rewoven",
+  "description": "This is a Rewrite/Port of 1.7.10 Witchery!",
+  "authors": [
+    "TechTastic"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "MIT License",
+  "icon": "assets/witcheryrewoven/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      {
+        "adapter": "kotlin",
+        "value": "io.github.techtastic.witcheryrewoven.fabric.WitcheryRewovenFabric"
+      }
+    ],
+    "client": [
+      {
+        "adapter": "kotlin",
+        "value": "io.github.techtastic.witcheryrewoven.fabric.WitcheryRewovenFabric$Client"
+      }
+    ]
+  },
+  "mixins": [
+    "witcheryrewoven.mixins.json",
+    "witcheryrewoven-common.mixins.json"
+  ],
+  "depends": {
+    "fabric": "*",
+    "minecraft": ">=1.18.2",
+    "architectury": ">=4.11.93",
+    "fabric-language-kotlin": ">=1.10.18+kotlin.1.9.22"
+  }
+}

@@ -1,0 +1,35 @@
+modLoader = "kotlinforforge"
+loaderVersion = "[3,)"
+#issueTrackerURL = ""
+license = "MIT License"
+
+[[mods]]
+modId = "witcheryrewoven"
+version = "${version}"
+displayName = "Witchery: Rewoven"
+authors = "TechTastic"
+description = '''
+This is a Rewrite/Port of 1.7.10 Witchery!
+'''
+#logoFile = ""
+
+[[dependencies.witcheryrewoven]]
+modId = "forge"
+mandatory = true
+versionRange = "[40,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.witcheryrewoven]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.18.2,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.witcheryrewoven]]
+modId = "architectury"
+mandatory = true
+versionRange = "[4.11.93,)"
+ordering = "AFTER"
+side = "BOTH"
