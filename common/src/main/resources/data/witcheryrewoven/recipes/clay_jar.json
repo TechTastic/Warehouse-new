@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "witcheryrewoven:soft_clay_jar"
+  },
+  "result": "witcheryrewoven:clay_jar",
+  "experience": 0.35,
+  "cookingtime": 200
+}

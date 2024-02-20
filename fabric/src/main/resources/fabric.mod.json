@@ -24,7 +24,7 @@
     "client": [
       {
         "adapter": "kotlin",
-        "value": "io.github.techtastic.witcheryrewoven.fabric.WitcheryRewovenFabric$Client"
+        "value": "io.github.techtastic.witcheryrewoven.fabric.WitcheryRewovenFabric${'$'}Client"
       }
     ]
   },
