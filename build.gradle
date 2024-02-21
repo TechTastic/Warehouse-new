@@ -48,12 +48,10 @@ subprojects {
         repositories {
             maven {
                 name = "GitHubPackages"
-                url = "https://maven.pkg.github.com/TechTastic/WitcheryRewoven"
+                url = "https://maven.pkg.github.com/techtastic/WitcheryRewoven"
                 credentials {
-                    username = project.findProperty("gpr.user")
-                    if (username == null) username = System.getenv("GITHUB_ACTOR")
-                    password = project.findProperty("gpr.key")
-                    if (password == null) System.getenv("GITHUB_TOKEN")
+                    username = project.github_username
+                    password = project.github_token
                 }
             }
         }
