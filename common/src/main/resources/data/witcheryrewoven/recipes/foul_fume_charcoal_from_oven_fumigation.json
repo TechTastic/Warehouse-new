@@ -1,0 +1,12 @@
+{
+  "type": "witcheryrewoven:oven_fumigation",
+  "input": {
+    "tag": "minecraft:logs"
+  },
+  "jar": {
+    "item": "witcheryrewoven:foul_fume"
+  },
+  "output": {
+    "item": "minecraft:charcoal"
+  }
+}

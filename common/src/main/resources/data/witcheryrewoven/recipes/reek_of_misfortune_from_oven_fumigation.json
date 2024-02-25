@@ -1,0 +1,12 @@
+{
+  "type": "witcheryrewoven:oven_fumigation",
+  "input": {
+    "item": "minecraft:alder_sapling"
+  },
+  "jar": {
+    "item": "witcheryrewoven:reek_of_misfortune"
+  },
+  "output": {
+    "item": "witcheryrewoven:wood_ash"
+  }
+}

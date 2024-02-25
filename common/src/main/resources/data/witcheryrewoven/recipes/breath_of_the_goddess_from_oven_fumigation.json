@@ -1,0 +1,12 @@
+{
+  "type": "witcheryrewoven:oven_fumigation",
+  "input": {
+    "item": "minecraft:birch_sapling"
+  },
+  "jar": {
+    "item": "witcheryrewoven:breath_of_the_goddess"
+  },
+  "output": {
+    "item": "witcheryrewoven:wood_ash"
+  }
+}

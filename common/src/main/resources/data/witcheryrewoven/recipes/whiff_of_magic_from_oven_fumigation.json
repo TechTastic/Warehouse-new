@@ -1,0 +1,12 @@
+{
+  "type": "witcheryrewoven:oven_fumigation",
+  "input": {
+    "item": "minecraft:rowan_sapling"
+  },
+  "jar": {
+    "item": "witcheryrewoven:whiff_of_magic"
+  },
+  "output": {
+    "item": "witcheryrewoven:wood_ash"
+  }
+}

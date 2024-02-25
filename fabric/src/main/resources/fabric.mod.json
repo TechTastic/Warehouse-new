@@ -26,6 +26,12 @@
         "adapter": "kotlin",
         "value": "io.github.techtastic.witcheryrewoven.fabric.WitcheryRewovenFabric${'$'}Client"
       }
+    ],
+    "fabric-datagen": [
+      {
+        "adapter": "kotlin",
+        "value": "io.github.techtastic.witcheryrewoven.fabric.WRDatagenFabric"
+      }
     ]
   },
   "mixins": [

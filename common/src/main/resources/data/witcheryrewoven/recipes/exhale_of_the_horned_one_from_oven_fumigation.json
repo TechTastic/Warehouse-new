@@ -1,0 +1,12 @@
+{
+  "type": "witcheryrewoven:oven_fumigation",
+  "input": {
+    "item": "minecraft:oak_sapling"
+  },
+  "jar": {
+    "item": "witcheryrewoven:exhale_of_the_horned_one"
+  },
+  "output": {
+    "item": "witcheryrewoven:wood_ash"
+  }
+}

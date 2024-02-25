@@ -1,0 +1,12 @@
+{
+  "type": "witcheryrewoven:oven_fumigation",
+  "input": {
+    "item": "minecraft:hawthorn_sapling"
+  },
+  "jar": {
+    "item": "witcheryrewoven:odor_of_purity"
+  },
+  "output": {
+    "item": "witcheryrewoven:wood_ash"
+  }
+}
