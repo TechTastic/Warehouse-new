@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "id": "witcheryrewoven",
+  "id": "warehouse",
   "version": "${version}",
-  "name": "Witchery: Rewoven",
-  "description": "This is a Rewrite/Port of 1.7.10 Witchery!",
+  "name": "Warehouse",
+  "description": "A Low-Tech Mass Storage System!",
   "authors": [
     "TechTastic"
   ],
@@ -12,31 +12,25 @@
     "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
   "license": "MIT License",
-  "icon": "assets/witcheryrewoven/icon.png",
+  "icon": "icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
       {
         "adapter": "kotlin",
-        "value": "io.github.techtastic.witcheryrewoven.fabric.WitcheryRewovenFabric"
+        "value": "io.github.techtastic.warehouse.fabric.WarehouseFabric"
       }
     ],
     "client": [
       {
         "adapter": "kotlin",
-        "value": "io.github.techtastic.witcheryrewoven.fabric.WitcheryRewovenFabric${'$'}Client"
-      }
-    ],
-    "fabric-datagen": [
-      {
-        "adapter": "kotlin",
-        "value": "io.github.techtastic.witcheryrewoven.fabric.WRDatagenFabric"
+        "value": "io.github.techtastic.warehouse.fabric.WarehouseFabric${'$'}Client"
       }
     ]
   },
   "mixins": [
-    "witcheryrewoven.mixins.json",
-    "witcheryrewoven-common.mixins.json"
+    "warehouse.mixins.json",
+    "warehouse-common.mixins.json"
   ],
   "depends": {
     "fabric": "*",

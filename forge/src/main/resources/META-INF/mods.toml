@@ -4,30 +4,30 @@ loaderVersion = "[3,)"
 license = "MIT License"
 
 [[mods]]
-modId = "witcheryrewoven"
+modId = "warehouse"
 version = "${version}"
-displayName = "Witchery: Rewoven"
+displayName = "Warehouse"
 authors = "TechTastic"
 description = '''
-This is a Rewrite/Port of 1.7.10 Witchery!
+A Low-Tech Mass Storage System!
 '''
 #logoFile = ""
 
-[[dependencies.witcheryrewoven]]
+[[dependencies.warehouse]]
 modId = "forge"
 mandatory = true
 versionRange = "[40,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.witcheryrewoven]]
+[[dependencies.warehouse]]
 modId = "minecraft"
 mandatory = true
 versionRange = "[1.18.2,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.witcheryrewoven]]
+[[dependencies.warehouse]]
 modId = "architectury"
 mandatory = true
 versionRange = "[4.11.93,)"

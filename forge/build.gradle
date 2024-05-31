@@ -14,8 +14,8 @@ loom {
         convertAccessWideners = true
         extraAccessWideners.add loom.accessWidenerPath.get().asFile.name
 
-        mixinConfig "witcheryrewoven-common.mixins.json"
-        mixinConfig "witcheryrewoven.mixins.json"
+        mixinConfig "warehouse-common.mixins.json"
+        mixinConfig "warehouse.mixins.json"
     }
 }
 
